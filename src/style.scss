@@ -1,0 +1,28 @@
+:root {
+	--arrows: #f7f1e3;
+	--background: #2c2c54;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.flex {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.scene {
+	background: var(--background);
+	height: 100vh;
+
+	&__animation {
+		width: 70vw;
+		min-width: 300px;
+		max-width: 800px;
+		height: auto;
+	}
+}
